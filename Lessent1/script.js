@@ -27,3 +27,4 @@ console.log(expenses.vopros1);
 console.log(expenses.vopros2);
 let day=30;
 alert(money/day);
+alert("19 age");
