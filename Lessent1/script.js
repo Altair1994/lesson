@@ -1,14 +1,14 @@
-let money=prompt("Ваш бюджет на месяц?");
-    time=prompt("date:дата формирования");
-    money1=+money;
+'use strict'
+let money=+prompt("Ваш бюджет на месяц?");
+    time=prompt("дата формирования");
     console.log(money);
     console.log(time);
 let appData={
     Budget:"money",
     timeData:"time",
-    income:"",
+    income:[],
     savings:false,
-    optionalExpenses:"",
+    optionalExpenses:{},
     };
     let article1=prompt("Введите обязательную статью расходов в этом месяце");
 let price1=prompt("Во сколько обойдется?");
